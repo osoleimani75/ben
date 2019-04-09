@@ -1,0 +1,1 @@
+$("#imageProfile").on("click", "/profile");

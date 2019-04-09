@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS datingdb;
+CREATE DATABASE datingdb;
+

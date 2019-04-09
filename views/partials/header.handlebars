@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="/styles/head.css">
+<div class="topLineMenu">
+  <div class="hcontainer">
+    <ul>
+    <ul>
+      {{#unless user}}
+      <li>
+        <a href="/signup">Signup</a>
+      </li>
+      <li>
+        <a href="/login">Login</a>
+      </li>
+      {{/unless}}
+
+
+      {{#if user}}
+      <li>
+        <a href="/logout">Logout</a>
+      </li>
+      {{/if}}
+    </ul>
+    <div class="__location">
+      <input id="locationSpot" type="text" placeholder="Location..." />
+      <button class="btn-gps" type="button">
+        <img src="/images/icon/gps.svg" alt="Logo" />
+      </button>
+    </div>
+  </div>
+</div>
